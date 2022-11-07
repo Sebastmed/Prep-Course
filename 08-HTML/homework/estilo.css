@@ -1,5 +1,11 @@
+body {
+	background: lightgreen;
+}
+
+
 h1 {
-	color: darkred;
+	color: green;
+	text-align: center;
 }
 
 img {
@@ -10,6 +16,8 @@ img {
 	width: 500px;
 	height: 600px;
 	background: gray;
+	margin: auto auto;
+
 }
 
 #spanId {
@@ -20,4 +28,10 @@ img {
 #thirdDiv {
 	padding: 50px;
 	border: 2px solid blue;
+
+}
+
+.divClass {
+	text-align: center;
+	margin: 30px;
 }
