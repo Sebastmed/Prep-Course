@@ -114,7 +114,7 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(num % 2 == 0){
+  if(num % 2 === 0){
     return true;
   }
   else {
@@ -126,7 +126,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(num % 2 == 1){
+  if(num % 2 === 1){
     return true;
   }
   else {
@@ -179,7 +179,7 @@ function esPositivo(numero) {
   if(numero > 0){
     return "Es positivo";
   }
-  else if (numero == 0){
+  else if (numero === 0){
     return false;
   }
   else {
@@ -247,10 +247,10 @@ function esVocal(letra){
     return "Es vocal";
   }
   else if(letra.length !== 1){
-    return "dato incorrecto";
+    return "Dato incorrecto";
   }
   else {
-    return "dato incorrecto";
+    return "Dato incorrecto";
   }
 }
 
